@@ -7,3 +7,4 @@ for char in punctuation:
 
 words = text.split()
 print(words)
+print("Количество разных слов:", len(set(words)))
